@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(93, 93, 154);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(126, 107, 145);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+} 
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(96, 96, 154);
+    font-size: 1.06rem;  
+}         
+.left{
+    font-size: 2rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection div{
+    width: 30%;
+}
+.leftSection{
+    
+    font-size: 2rem;
+}
+.rightSection2 img{
+    width: 80%;
+    margin: 50px 0;
+}
+#element{
+    color: rgb(21, 21, 77);
+}
+.secondSection{
+    max-width: 80dvw;
+    margin: auto;
+}
+.secondSection{
+    font-size: 1.3rem;
+}
+.text-gray{
+    color: rgb(22, 22, 50);
+}
+.leftSection2{
+    
+    font-size: 2rem;
+}
+.rightSection2 img{
+    width: 30%;
+    margin: 50px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">APRAJITA PRASAD</div>
+            <div class="right">
+                <ul>
+                    <a><li>Home</a></li>
+                    <a><li>About</a></li>
+                    <a><li>Works</a></li>
+                    <a><li>projects</a></li>
+                    <a><li>Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Self-motivated and passionate computer science student with a strong foundation in software development, API integration, and modern tech stacks. Eager to apply practical knowledge through real-world projects and contribute to 
+                <span id="element"></span>
+ 
+            </div>
+            <div class="rightSection">
+                <img src="web-designer.webp" alt="developer">
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <span class="text-gray">What Have I Learnt so Far</span>
+
+            <h1>EXTRA CRICULARS</h1>
+            <div class="leftSection2">
+                Volunteer at KHWAAB, a society under Kalinga Student Activity Centre (KSAC), KIIT University.
+                <span id="element"></span>
+ 
+            </div>
+            <div class="rightSection2">
+                <img src="im2.png" alt="activities">
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['open-source development.','open-source designing.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
